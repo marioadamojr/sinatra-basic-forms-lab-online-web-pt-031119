@@ -8,7 +8,7 @@ class Puppy
     @months_old=months_old
   end
 
-  def age=
+  def age
     @months_old
   end
 end
