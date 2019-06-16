@@ -1,5 +1,4 @@
 class Puppy
-  attr_reader
   attr_accessor :name, :breed, :months_old
 
   def initialize(hash_info)
