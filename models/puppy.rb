@@ -1,13 +1,10 @@
 class Puppy
-  attr_accessor :name, :breed, :age
+  attr_accessor :name, :breed, :months_old
 
   def initialize(hash_info)
     hash_info.each do |k,v|
       self.send(("#{k}="),v)
     end
   end
-  #
-  def months_old
-    @age
-  end
+
 end
