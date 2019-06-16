@@ -7,7 +7,7 @@ class Puppy
     end
   end
   #
-  # def age
-  #   @months_old
-  # end
+  def months_old
+    @age
+  end
 end
