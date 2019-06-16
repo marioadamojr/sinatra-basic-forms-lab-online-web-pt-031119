@@ -6,7 +6,7 @@ class Puppy
       self.send(("#{k}="),v)
     end
   end
-  # 
+  #
   # def age
   #   @months_old
   # end
